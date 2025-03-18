@@ -1,6 +1,7 @@
 application-dependencies:
   default:
   - foo
+  - something-else
 
 components:
   - name: list
