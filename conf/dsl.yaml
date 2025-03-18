@@ -1,0 +1,11 @@
+application-dependencies:
+  default:
+  - foo
+
+components:
+  - name: list
+    command:
+      executable: ls
+      arguments:  -lth foo:ref
+    references:
+    - foo:ref
