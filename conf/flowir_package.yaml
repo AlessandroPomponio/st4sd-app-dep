@@ -2,6 +2,11 @@ application-dependencies:
   default:
   - foo
   - something-else
+  cpu:
+  - bar
+  - another-one
+  third-platform:
+  - example
 
 components:
   - name: list
