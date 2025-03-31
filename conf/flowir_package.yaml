@@ -3,9 +3,11 @@ application-dependencies:
   - foo
   - something-else
   cpu:
+  - foo
   - bar
   - another-one
   third-platform:
+  - foo
   - example
 
 components:
