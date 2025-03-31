@@ -10,6 +10,12 @@ application-dependencies:
   - foo
   - example
 
+platforms:
+- default
+- cpu
+- third-platform
+- no-app-deps
+
 components:
   - name: list
     command:
